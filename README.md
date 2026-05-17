@@ -13,39 +13,31 @@
 ## 📑 Sumário
 - [Sobre o Projeto](#-sobre-o-projeto)
 - [Objetivo](#-objetivo)
-- [Público-Alvo](#-público-alvo)
+- [ODS 9](#-ods-9)
 - [Tecnologias Utilizadas](#-tecnologias-utilizadas)
 - [Código](./application)
-- [Documetação](https://github.com/vinicius-10/CertificadoraCompetencia3/wiki)
 
 ---
 
-## 💜 Sobre o Projeto
-O Sistema de Controle de Voluntários(as) e Apoiadores(as) foi desenvolvido para gerenciar as atividades do projeto de extensão Meninas Digitais, vinculado à SBC (Sociedade Brasileira de Computação).
-
-O projeto tem como foco incentivar a participação de meninas, principalmente de escolas públicas, nas áreas de STEM (Ciência, Tecnologia, Engenharia e Matemática), por meio de ações educacionais, oficinas e mentorias.
-
-O sistema tem como finalidade centralizar informações, facilitar a gestão de voluntários e gerar indicadores relevantes sobre participação, permanência e atuação dentro do projeto.
+## 🧡 Sobre o Projeto
+O SprinT Web é um projeto acadêmico desenvolvido como trabalho final da disciplina de Frontend Web da UTFPR — Campus Cornélio Procópio. 
+O site foi criado com base no programa SprinT, a incubadora de startups e empresas juniores da universidade, 
+utilizando-o como tema central para aplicar e demonstrar as habilidades de desenvolvimento frontend adquiridas ao longo da disciplina.
 
 ## 🎯 Objetivo
-- Gerenciar voluntários(as) e apoiadores(as)
-- Controlar participação e tempo de atuação
-- Apoiar a organização interna do projeto
-- Gerar relatórios e métricas estratégicas
-- Disponibilizar informações públicas do projeto
-- Garantir controle de acesso com autenticação
+O projeto tem como objetivo construir um site institucional que apresente o programa SprinT de forma clara e atrativa para o público estudantil da UTFPR. 
+O site busca informar os alunos sobre como o programa funciona, dar visibilidade às startups e empresas juniores envolvidas e incentivar outros estudantes a participarem do ecossistema de inovação da universidade. 
+Além da aplicação técnica, o projeto propõe um mecanismo real de engajamento estudantil em torno de um tema com impacto direto na comunidade.
   
-## 👥 Público-Alvo
-- Coordenação do projeto
-- Bolsistas (coordenação estudantil)
-- Representantes de setor
-- Voluntários(as)
-- Apoiadores externos (professores, IC Júnior, parceiros)
+## ⚙ ODS 9
+O tema do site se conecta diretamente ao Objetivo de Desenvolvimento Sustentável 9 da ONU, que propõe fomentar a inovação, promover a industrialização sustentável e apoiar o desenvolvimento de infraestruturas resilientes.
+O programa SprinT é um exemplo concreto desse objetivo em prática: ao incubar startups e empresas juniores dentro do ambiente universitário,
+ele estrutura o caminho entre uma ideia estudantil e um empreendimento com impacto real na comunidade de Cornélio Procópio e região.
+O site reforça essa conexão ao comunicar o programa e convidar estudantes a fazerem parte dessa cadeia de inovação.
   
 ## 🛠 Tecnologias Utilizadas
-- Container: Docker 29.4
-- Backend: Flask 3.1
-- Frontend: HTML 5, CSS, JavaScript
-- Banco de Dados: postgresql 18.3
-- Versionamento: Git + GitHub
+- HTML5 — estruturação semântica do conteúdo
+- CSS3 — estilização, layout com Flexbox e Grid, animações e responsividade
+- JavaScript — funcionalidades de interface: carrossel de cards e animações de scroll reveal
+- Google Fonts — tipografia com as famílias Syne e DM Sans
 
