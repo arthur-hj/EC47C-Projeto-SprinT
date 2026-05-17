@@ -20,7 +20,7 @@
 ---
 
 ## 🧡 Sobre o Projeto
-O SprinT Web é um projeto acadêmico desenvolvido como trabalho final da disciplina de Frontend Web da UTFPR — Campus Cornélio Procópio. 
+O SprinT Web é um projeto acadêmico desenvolvido como trabalho final da disciplina de Frontend Web da UTFPR - Campus Cornélio Procópio. 
 O site foi criado com base no programa SprinT, a incubadora de startups e empresas juniores da universidade, 
 utilizando-o como tema central para aplicar e demonstrar as habilidades de desenvolvimento frontend adquiridas ao longo da disciplina.
 
