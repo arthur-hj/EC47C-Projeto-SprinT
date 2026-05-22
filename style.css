@@ -173,7 +173,7 @@ nav img{
     gap: 8px;
     background-color: transparent;
     color: var(--warmwhite);
-    font-family: 'DM sans', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     font-weight: 600;
     font-size: 18px;
     text-decoration: none;
@@ -205,7 +205,7 @@ nav img{
 }
 
 .legenda{
-    font-family: 'DM sans', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     font-size: 20px;
     font-weight: 400;
     color: rgba(253,232,216, 0.85) ;
@@ -244,7 +244,7 @@ section { padding: 64px 5vw; }
 }
 
 .texto-sobre {
-    font-family: 'DM sans' sans-serif;
+    font-family: 'DM Sans' sans-serif;
     font-size: 18px;
     color: var(--nearblack);
     line-height: 1.3;
@@ -254,7 +254,7 @@ section { padding: 64px 5vw; }
 }
 
 .ods9{
-    font-family: 'DM sans' sans-serif;
+    font-family: 'DM Sans' sans-serif;
     font-size: 18px;
     color: var(--muted-teal);
     font-weight: 500;
@@ -361,7 +361,7 @@ section { padding: 64px 5vw; }
 }
 
 .nome-etapa{
-    font-family: 'DM sans', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     font-size: 24px;
     font-weight: 500;
     color: var(--warmwhite);
@@ -369,7 +369,7 @@ section { padding: 64px 5vw; }
 }
 
 .desc-etapa{
-    font-family: 'DM sans', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     font-size: 20px;
     width: 270px;
     font-weight: 400;
@@ -397,7 +397,7 @@ section { padding: 64px 5vw; }
 }
 
 .texto-parceiros{
-    font-family: 'DM sans' sans-serif;
+    font-family: 'DM Sans' sans-serif;
     font-size: 18px;
     color: var(--warmwhite);
     line-height: 1.3;
@@ -490,7 +490,7 @@ section { padding: 64px 5vw; }
 }
 
 .desc-card{
-    font-family: 'DM sans' sans-serif;
+    font-family: 'DM Sans' sans-serif;
     font-size: 16px;
     font-weight: 300;
     color: var(--nearblack);
@@ -507,14 +507,14 @@ section { padding: 64px 5vw; }
 }
 
 .nivel-card{
-    font-family: 'DM sans' sans-serif;
+    font-family: 'DM Sans' sans-serif;
     font-size: 16px;
     font-weight: 300;
     color: var(--nearblack);
 }
 
 .link-card{
-    font-family: 'DM sans' sans-serif;
+    font-family: 'DM Sans' sans-serif;
     font-size: 16px;
     font-weight: 500;
     color: var(--laranja-base);
@@ -629,7 +629,7 @@ section { padding: 64px 5vw; }
     color: rgba(253, 246, 241, 0.75);
     width: 400px;
     margin-bottom: 40px;
-    font-family: 'DM sans', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     font-size: 20px;
     font-weight: 200;
 }
@@ -650,4 +650,145 @@ section { padding: 64px 5vw; }
 .cta-participar:hover{
     background-color: var(--base-laranja-dk);
     transform: translateY(-1px);
+}
+
+footer{
+    background-color: var(--nearblack);
+    border-top: 3px solid var(--laranja-base);
+}
+
+.footer-principal{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.info{
+    padding-left: 75px;
+}
+
+.info img{
+    height: 100px;
+}
+
+.info-texto{
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    color: rgba(253, 246, 241, 0.75);
+    margin-bottom: 20px;
+}
+
+.tag-ods9{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--laranja-base);
+    background-color: #6B2C0E;
+    border-radius: 20px;
+    border: 2px solid var(--laranja-base);
+    width: 280px;
+    text-decoration: none;
+}
+
+.contatos{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.contatos-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    gap: 10px;
+}
+
+#Contato .tag-secao{
+    margin-bottom: 10px;
+}
+
+.contato{
+    color: var(--warmwhite);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.contato span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #231B12;
+    width: 24px;
+    height: 24px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 16px;
+    padding-right: 60px;
+}
+
+.titulo-social{
+    color: var(--laranja-base);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 5px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase; 
+}
+
+.redes-sociais{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.logo-social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #231B12;
+    border: 1px solid var(--warmwhite);
+    border-radius: 10px;
+    padding: 7px;
+    transition: background 0.3s;
+    transform: 0.2s;
+}
+
+.logo-social:hover{
+    background-color: rgba(242, 106, 47, 0.4);
+    transform: translateY(-1px);
+}
+
+.copyright{
+    margin-top: 30px;
+    padding-left: 75px;
+    padding-bottom: 20px;
+}
+
+.linkcv{
+    text-decoration: none;
+    color: var(--warmwhite);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 200;
 }
