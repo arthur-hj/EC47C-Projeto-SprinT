@@ -15,7 +15,6 @@
 - [Objetivo](#-objetivo)
 - [ODS 9](#-ods-9)
 - [Tecnologias Utilizadas](#-tecnologias-utilizadas)
-- [Código](./application)
 
 ---
 
