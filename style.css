@@ -604,3 +604,50 @@ section { padding: 64px 5vw; }
     transform: scale(0.95)
 }
 
+#Participar{
+    background-color: var(--nearblack);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 120px 96px;
+}
+
+#Participar .titulo-secao{
+    justify-content: center;
+    color: var(--warmwhite);
+    width: 570px;
+    line-height: 1.2;
+}
+
+#Participar .titulo-secao span{
+    color: var(--laranja-base);
+}
+
+.texto-participar{
+    color: rgba(253, 246, 241, 0.75);
+    width: 400px;
+    margin-bottom: 40px;
+    font-family: 'DM sans', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.cta-participar{
+    background-color: var(--laranja-base);
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px 14px 10px 14px;
+    border-radius: 150px;
+    color: var(--warmwhite);
+    transition: background 0.3s;
+    transform: 0.2s;
+}
+
+.cta-participar:hover{
+    background-color: var(--base-laranja-dk);
+    transform: translateY(-1px);
+}
