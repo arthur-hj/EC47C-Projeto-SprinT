@@ -16,45 +16,29 @@
 <body>
     <header>
         <nav>
-            <a href="index.html" class="logo">
+            <a href="principal.html" class="logo">
                 <img src="assets/sprint_logo_transparent-1.svg" alt="Logo SprinT">
             </a>
         </nav>
     </header>
- 
     <main class="adm-main">
- 
         <section class="adm-section">
- 
             <div class="adm-header">
                 <span class="tag-secao">Painel Administrativo</span>
                 <h1 class="adm-titulo">Cadastro de Usuários</h1>
                 <p class="adm-subtitulo">Adicione novos usuários à plataforma SprinT.</p>
             </div>
- 
             <div class="adm-card">
                 <form class="adm-form" id="formCadastro" novalidate>
  
                     <div class="campo-grupo">
                         <label for="inputNome">Nome do usuário</label>
-                        <input
-                            type="text"
-                            id="inputNome"
-                            placeholder="Ex: Arthur Henrique"
-                            autocomplete="name"
-                        >
+                        <input type="text" id="inputNome" placeholder="Ex: Fulano de tal" autocomplete="name">
                     </div>
- 
                     <div class="campo-grupo">
                         <label for="inputEmail">E-mail</label>
-                        <input
-                            type="email"
-                            id="inputEmail"
-                            placeholder="Ex: arthur@utfpr.edu.br"
-                            autocomplete="email"
-                        >
+                        <input type="email" id="inputEmail" placeholder="Ex: fulano@gmail.com" autocomplete="email">
                     </div>
-
                     <div class="form-acoes">
                         <button type="submit" class="btn-cadastrar" id="btnCadastrar">
                             <span class="material-symbols-outlined">person_add</span>
@@ -65,45 +49,59 @@
                             Limpar campos
                         </button>
                     </div>
- 
                 </form>
             </div>
- 
-            <!-- ── ÁREA DA LISTA ── -->
             <div class="lista-wrapper" id="listaWrapper">
- 
-                <!-- Barra de pesquisa + botão excluir todos -->
                 <div class="lista-controles">
                     <div class="pesquisa-wrapper">
                         <span class="material-symbols-outlined">search</span>
-                        <input
-                            type="text"
-                            id="inputPesquisa"
-                            placeholder="Pesquisar por nome ou e-mail…"
-                        >
+                        <input type="text" id="inputPesquisa" placeholder="Pesquisar por nome ou e-mail…">
                     </div>
                     <button class="btn-excluir-todos" id="btnExcluirTodos">
                         <span class="material-symbols-outlined">delete_sweep</span>
                         Excluir todos
                     </button>
                 </div>
- 
-                <!-- Lista de usuários cadastrados -->
                 <ul class="lista-usuarios" id="listaUsuarios">
-                    <!-- itens inseridos via JS -->
                 </ul>
- 
-                <!-- Estado vazio (exibido quando não há registros) -->
                 <div class="lista-vazia" id="listaVazia">
                     <span class="material-symbols-outlined">group_off</span>
                     <p>Nenhum usuário cadastrado ainda.</p>
                 </div>
- 
             </div>
- 
         </section>
+        
     </main>
- 
+    <footer>
+            <div class="footer-principal">
+                <div class="info">
+                    <img src="assets/logo-sprint-branca.svg" alt="SprinT">
+                    <p class="info-texto">Incubadora de startups e <br>empresas da UTFPR — <br>Campus Cornélio Procópio</p>
+                    <a href="https://brasil.un.org/pt-br/sdgs/9/key-activities" class="tag-ods9" target="_blank"><div>⬡ ODS 9 · Inovação & Infraestrutura</div></a>
+                </div>
+                <div class="contatos" id="Contato">
+                    <div class="contatos-wrapper">
+                        <div class="tag-secao">Contato</div>
+                        <a href="mailto:incubadora-cp@utfpr.edu.br" class="contato"><span class="material-symbols-outlined">mail</span>incubadora-cp@utfpr.edu.br</a>
+                        <div class="contato"><span class="material-symbols-outlined">call</span>(43) 3133-3831</div>
+                        <div class="contato"><span class="material-symbols-outlined">call</span>(43) 3133-3834</div>
+                        <div class="contato"><span class="material-symbols-outlined">sms</span>(43) 3133-3832</div>
+                        <a href="https://maps.app.goo.gl/jYpZGhdcuBi9YJhM7" class="contato" target="_blank"><div class="contato"><span class="material-symbols-outlined">location_on</span>Rua do Expedicionários, 568, Cornélio Procópio - PR</div></a>
+                    </div>
+                </div>
+                <div class="social">
+                    <p class="titulo-social">Redes Sociais</p>
+                    <div class="redes-sociais">
+                        <a href="https://www.instagram.com/sprint.cp/" target="_blank" class="logo-social"><img src="assets/logo-instagram.svg" alt="Instagram"></a>
+                        <a href="https://www.facebook.com/utfprcpincubadora" target="_blank" class="logo-social"><img src="assets/logo-facebook.svg" alt="Facebook"></a>
+                        <a href="https://www.linkedin.com/in/incubadora-de-inova%C3%A7%C3%B5es-tecnol%C3%B3gica-utfpr/" target="_blank" class="logo-social"><img src="assets/logo-linkedl.svg" alt="Linkedln"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <a href="https://arthur-hj.github.io/EC47C---Web-Front-End/" class="linkcv" target="_blank">© 2026 Arthur Henrique - UTFPR - CP — Projeto de Deselvolvimento Web Frontend. Feito com 🧡 por quem acredita no futuro.</a>
+            </div>
+        </footer>
     <script src="adm.js"></script>
 </body>
 </html>

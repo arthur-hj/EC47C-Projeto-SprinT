@@ -13,17 +13,15 @@
     margin-bottom: 12px;
 }
 
-/* ── Link Adm ativo no menu ── */
 .nav-adm-ativo {
     color: var(--laranja-base) !important;
     font-weight: 700 !important;
 }
 
-/* ── Layout principal ── */
 .adm-main {
     background-color: var(--warmwhite);
     min-height: 100vh;
-    padding: 120px 5vw 80px; /* 120px para compensar o nav fixo */
+    padding: 120px 5vw 80px; 
 }
 
 .adm-section {
@@ -34,7 +32,6 @@
     gap: 40px;
 }
 
-/* ── Cabeçalho da seção ── */
 .adm-header {
     display: flex;
     flex-direction: column;
@@ -58,7 +55,6 @@
     margin: 0;
 }
 
-/* ── Card do formulário ── */
 .adm-card {
     background-color: #fff;
     border: 1px solid var(--warm-sand);
@@ -67,7 +63,6 @@
     box-shadow: 0 2px 16px rgba(26, 18, 8, 0.06);
 }
 
-/* ── Formulário ── */
 .adm-form {
     display: flex;
     flex-direction: column;
@@ -109,7 +104,6 @@
     color: rgba(26, 18, 8, 0.35);
 }
 
-/* ── Botões do formulário ── */
 .form-acoes {
     display: flex;
     gap: 12px;
@@ -152,14 +146,12 @@
     transform: translateY(-1px);
 }
 
-/* ── Área da lista ── */
 .lista-wrapper {
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
 
-/* ── Controles: pesquisa + excluir todos ── */
 .lista-controles {
     display: flex;
     align-items: center;
@@ -226,7 +218,6 @@
     transform: translateY(-1px);
 }
 
-/* ── Lista de usuários ── */
 .lista-usuarios {
     list-style: none;
     padding: 0;
@@ -300,9 +291,8 @@
     transform: scale(1.1);
 }
 
-/* ── Estado vazio ── */
 .lista-vazia {
-    display: none; /* controlado pelo JS */
+    display: none;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -318,30 +308,4 @@
 
 .lista-vazia span {
     font-size: 40px;
-}
-
-/* ── Responsividade ── */
-@media (max-width: 600px) {
-    .adm-card {
-        padding: 24px 20px;
-    }
-
-    .form-acoes {
-        flex-direction: column;
-    }
-
-    .btn-cadastrar,
-    .btn-limpar {
-        width: 100%;
-        justify-content: center;
-    }
-
-    .lista-controles {
-        flex-direction: column;
-        align-items: stretch;
-    }
-
-    .btn-excluir-todos {
-        justify-content: center;
-    }
 }
