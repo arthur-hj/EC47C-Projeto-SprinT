@@ -56,15 +56,26 @@ nav img{
 .links-nav a{
     font-size: 16px;
     font-weight: 500;
-    color: var(--nearblack);
     text-decoration: none;
     position: relative;
     padding-bottom: 2px;
     transition: color 0.3s;
 }
 
-.links-nav a:hover{
+.link{
+    color: var(--nearblack);
+}
+
+.link:hover{
     color: var(--laranja-base);
+}
+
+.adm{
+    color: var(--laranja-base);
+}
+
+.adm:hover{
+    color: var(--muted-teal);
 }
 
 .cta{

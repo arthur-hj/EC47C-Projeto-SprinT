@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adm — SprinT</title>
+ 
+    <!-- Mesma fonte e ícones do projeto principal -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@200;300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="adm.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">
+                <img src="assets/sprint_logo_transparent-1.svg" alt="Logo SprinT">
+            </a>
+        </nav>
+    </header>
+ 
+    <main class="adm-main">
+ 
+        <section class="adm-section">
+ 
+            <div class="adm-header">
+                <span class="tag-secao">Painel Administrativo</span>
+                <h1 class="adm-titulo">Cadastro de Usuários</h1>
+                <p class="adm-subtitulo">Adicione novos usuários à plataforma SprinT.</p>
+            </div>
+ 
+            <div class="adm-card">
+                <form class="adm-form" id="formCadastro" novalidate>
+ 
+                    <div class="campo-grupo">
+                        <label for="inputNome">Nome do usuário</label>
+                        <input
+                            type="text"
+                            id="inputNome"
+                            placeholder="Ex: Arthur Henrique"
+                            autocomplete="name"
+                        >
+                    </div>
+ 
+                    <div class="campo-grupo">
+                        <label for="inputEmail">E-mail</label>
+                        <input
+                            type="email"
+                            id="inputEmail"
+                            placeholder="Ex: arthur@utfpr.edu.br"
+                            autocomplete="email"
+                        >
+                    </div>
+
+                    <div class="form-acoes">
+                        <button type="submit" class="btn-cadastrar" id="btnCadastrar">
+                            <span class="material-symbols-outlined">person_add</span>
+                            Cadastrar
+                        </button>
+                        <button type="button" class="btn-limpar" id="btnLimpar">
+                            <span class="material-symbols-outlined">clear_all</span>
+                            Limpar campos
+                        </button>
+                    </div>
+ 
+                </form>
+            </div>
+ 
+            <!-- ── ÁREA DA LISTA ── -->
+            <div class="lista-wrapper" id="listaWrapper">
+ 
+                <!-- Barra de pesquisa + botão excluir todos -->
+                <div class="lista-controles">
+                    <div class="pesquisa-wrapper">
+                        <span class="material-symbols-outlined">search</span>
+                        <input
+                            type="text"
+                            id="inputPesquisa"
+                            placeholder="Pesquisar por nome ou e-mail…"
+                        >
+                    </div>
+                    <button class="btn-excluir-todos" id="btnExcluirTodos">
+                        <span class="material-symbols-outlined">delete_sweep</span>
+                        Excluir todos
+                    </button>
+                </div>
+ 
+                <!-- Lista de usuários cadastrados -->
+                <ul class="lista-usuarios" id="listaUsuarios">
+                    <!-- itens inseridos via JS -->
+                </ul>
+ 
+                <!-- Estado vazio (exibido quando não há registros) -->
+                <div class="lista-vazia" id="listaVazia">
+                    <span class="material-symbols-outlined">group_off</span>
+                    <p>Nenhum usuário cadastrado ainda.</p>
+                </div>
+ 
+            </div>
+ 
+        </section>
+    </main>
+ 
+    <script src="adm.js"></script>
+</body>
+</html>
